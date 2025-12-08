@@ -11,5 +11,8 @@
   "examplemod.configuration.magicNumberIntroduction": "Magic Number Text",
   "examplemod.configuration.magicNumber": "Magic Number",
 
-  "item.siyogasfirstmod.siyonite": "Siyonite"
+  "item.siyogasfirstmod.siyonite": "Siyonite",
+  "block.siyogasfirstmod.siyonite_block": "Siyonite Block",
+  "block.siyogasfirstmod.siyonite_ore": "Siyonite Ore",
+  "block.siyogasfirstmod.deepslate_siyonite_ore": "Deepslate Siyonite Ore"
 }

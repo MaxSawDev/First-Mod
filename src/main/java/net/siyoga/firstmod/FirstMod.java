@@ -1,6 +1,7 @@
 package net.siyoga.firstmod;
 
 import net.minecraft.world.item.CreativeModeTabs;
+import net.siyoga.firstmod.block.ModBlocks;
 import net.siyoga.firstmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -36,6 +37,7 @@ public class FirstMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -51,6 +53,12 @@ public class FirstMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SIYONITE);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.SIYONITE_BLOCK);
+            event.accept(ModBlocks.SIYONITE_ORE);
+            event.accept(ModBlocks.DEEPSLATE_SIYONITE_ORE);
         }
     }
 
