@@ -22,7 +22,7 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 @Mod(FirstMod.MOD_ID)
 public class FirstMod {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "siyogasfirstmod";
+    public static final String MOD_ID = "firstmod";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
 

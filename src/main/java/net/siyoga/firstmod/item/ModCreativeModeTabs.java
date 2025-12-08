@@ -21,7 +21,7 @@ public class ModCreativeModeTabs {
     public static final Supplier<CreativeModeTab> SIYONITE_ITEMS_TAB = CREATIVE_MODE_TAB.register("siyonite_items_tab",
             () ->CreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModItems.SIYONITE.get()))
-                    .title(Component.translatable("creativetab.siyogasfirstmod.siyonite_items"))
+                    .title(Component.translatable("creativetab.firstmod.siyonite_items"))
                     .displayItems((itemDisplayParameters, output) -> {
                       output.accept(ModItems.SIYONITE);
                     }).build());
@@ -30,7 +30,7 @@ public class ModCreativeModeTabs {
             () ->CreativeModeTab.builder()
                     .icon(() -> new ItemStack(ModBlocks.SIYONITE_BLOCK.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(FirstMod.MOD_ID, "siyonite_items_tab"))
-                    .title(Component.translatable("creativetab.siyogasfirstmod.siyonite_blocks"))
+                    .title(Component.translatable("creativetab.firstmod.siyonite_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.SIYONITE_BLOCK);
                         output.accept(ModBlocks.SIYONITE_ORE);

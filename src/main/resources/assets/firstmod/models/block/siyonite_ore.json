@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "siyogasfirstmod:block/siyonite_block"
+    "all": "firstmod:block/siyonite_ore"
   }
 }

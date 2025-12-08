@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "siyonite",
+  "ingredients": [
+    {
+      "item": "firstmod:siyonite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "firstmod:siyonite"
+  }
+}
