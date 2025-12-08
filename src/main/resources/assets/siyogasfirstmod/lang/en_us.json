@@ -14,5 +14,7 @@
   "item.siyogasfirstmod.siyonite": "Siyonite",
   "block.siyogasfirstmod.siyonite_block": "Siyonite Block",
   "block.siyogasfirstmod.siyonite_ore": "Siyonite Ore",
-  "block.siyogasfirstmod.deepslate_siyonite_ore": "Deepslate Siyonite Ore"
+  "block.siyogasfirstmod.deepslate_siyonite_ore": "Deepslate Siyonite Ore",
+  "creativetab.siyogasfirstmod.siyonite_items": "Siyonite Items",
+  "creativetab.siyogasfirstmod.siyonite_blocks": "Siyonite Blocks"
 }

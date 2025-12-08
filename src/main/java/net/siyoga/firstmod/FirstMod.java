@@ -2,6 +2,7 @@ package net.siyoga.firstmod;
 
 import net.minecraft.world.item.CreativeModeTabs;
 import net.siyoga.firstmod.block.ModBlocks;
+import net.siyoga.firstmod.item.ModCreativeModeTabs;
 import net.siyoga.firstmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -35,6 +36,8 @@ public class FirstMod {
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
